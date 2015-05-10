@@ -1,0 +1,133 @@
+<!-- source code html -->
+<html>
+<!-- source code head -->
+<head>
+	<title>Sign In</title>
+	<link rel="stylesheet" href="../css/sign in.css">
+	<script src="../js/alertlogin.js"></script>
+
+<!-- source code script javascript -->
+// <script>
+//     function validateForm() {
+//         var un = document.loginform.usr.value;
+//         var pw = document.loginform.pword.value;
+//         var username = "azid"; 
+//         var password = "azid";
+//         if ((un == username) && (pw == password)) {
+//             window.location = "../index.html";
+//             return false;
+//         }
+//         else {
+//             alert ("Login was unsuccessful, please check your username and password");
+//         }
+//       }
+// </script>
+<!-- end source code script javascript -->
+</head>
+<!-- end source code head -->
+
+<!-- source code body -->
+<body>
+<!-- source code topbar -->
+	<div id="topbar">
+<!-- source code topnav -->
+		<div id="topnav">
+			<div class="toplogo">
+				<a href="#"></a>
+			</div>
+
+		<ul class="link">
+			<li class="current"><a href="../index.html">Home</a></li>
+			<li><a href="tentangsaya.html">About</a></li>
+			<li><a href="portofolio.html">Portofolio</a></li>
+			<li><a href="hubungi.html">Contact</a></li>
+			<li><a href="signin.html">login</a></li>
+		</ul>
+
+		<ul class="social">
+			<li>
+				<a href="#">
+					<img src="../images/facebook.png">
+				</a>
+			</li>
+
+			<li>
+				<a href="#">
+					<img src="../images/twitter.png">
+				</a>
+			</li>
+
+			<li>
+				<a href="#">
+					<img src="../images/gplus.png">
+				</a>
+			</li>
+		</ul>
+		</div>
+<!-- end source code topnav -->
+
+<!-- source code submenu -->
+		<div id="submenu">
+			<div class="search">
+				<form >
+					<input type="text" class="searchtext" name="search" placeholder="cari..">
+					<input type="submit" class="searchsubmit" name="submit" value="search">
+				</form>
+				</div>
+			</div>
+<!-- end source code submenu -->
+		</div>
+<!-- end source code topbar -->
+
+<!-- source code page-wrap -->
+	<div id="page-wrap">
+	<div>
+		<h1>Sign In</h1>
+		<hr>
+
+	<div class="login">
+		<div class="xbtn"><a href=""><img src="../images/tombolx.jpg" alt=""></a></div>
+		<div class="user">
+			<img src="../images/user.png">
+		</div>
+<center>
+<form name="loginform" onSubmit="return validateForm();" action="../index.html" method="post">
+    <input type="text" name="usr" placeholder="username" class="ghost"> 
+    <input type="password" name="pword" placeholder="password" class="ghost">
+    <input type="submit" value="Login" class="btn" />
+    
+    <p>Belum Punya Akun? Silahkan <a href="SignUp.html">Sign Up</a></p>
+</form>
+</center>
+
+<!-- source code script javascript -->
+<script>
+    function validateForm() {
+        var un = document.loginform.usr.value;
+        var pw = document.loginform.pword.value;
+        var username = "admin"; 
+        var password = "admin";
+        if ((un == username) && (pw == password)) {
+            return true;
+        }
+        else {
+            alert ("Cek Username dan Password");
+            return false;
+        }
+  }
+</script>
+<!-- end source code script javascript -->
+	</div>
+
+<!-- source code footer -->
+		<div id="footer">
+			<span class="footer">Copyright &copy; 2014.Azid Aprianto.Universitas Pasundan Bandung</span>
+		</div>
+<!-- end source code footer -->
+	</div>
+<!-- end source code page-wrap -->
+
+</body>
+<!-- end source code body -->
+</html>
+<!-- end source code html -->

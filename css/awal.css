@@ -1,0 +1,204 @@
+/* ini adalah style isi dari sebuah HTML*/
+body {
+	font-family: georgia;
+	background: #234;
+	background-color: #9900FF;
+	margin: 0;
+	padding: 0;
+}
+/* end body */
+
+/* ini adalah style id=topbar */
+#topbar{
+	width: 100%;	
+	height: 5px;	
+}
+/* end topbar */
+
+/* ini adalah style id=topnav */
+#topnav{
+	position: relative;		
+	width: 740px;			
+	margin: auto;			
+}
+/* end topnav */
+
+/* ini adalah style class toplogo */
+.toplogo{
+	position: absolute;
+	left: -240px;
+	top: 4px;
+}
+/* end toplogo*/
+
+/* ini adalah style class toplogo a */
+.toplogo a{
+	width: 50px;
+	height: 25px;
+	display: block;
+	background-image: url(../images/logo.png);
+}
+/* end toplogo a */
+
+/* ini adalah style pada id=page-wrap */
+#page-wrap {
+	margin: 0 auto;
+	padding: auto;
+	background: #660066;
+	position: relative;
+	padding-top: 110px;
+}
+/* end page-wrap */
+
+/* ini adalah style dari id=content */
+#content {
+	width: 590px;
+	margin-right: 20px;
+	padding-right: 500px;
+	min-height: 500px;
+	font-family: verdana;
+	border: dashed #CC0066;
+	background-color: white;
+	padding-left: 20px;
+	font-size: 12px;
+	float: right;
+	margin: 0 auto;
+}
+/* end content */
+
+/* ini adalah style dari id=gallery */
+#gallery{
+	width:1000px;
+	margin:auto;
+	text-align:center;
+}
+
+/* ini adalah style dari id=gallery h1 */
+#gallery h1 {
+	font-family: verdana;
+	font-size: 20px;
+	color: #660066;
+}
+
+/* ini adalah style dari id=gallery a */
+#gallery a{
+	text-decoration:none;
+}
+
+/* ini adalah style dari id=gallery ul */
+#gallery ul{
+	list-style:none;
+	margin-top:20px;
+}
+
+/* ini adalah style dari id=gallery ul li */
+#gallery ul li{
+	width:203px;
+	height:150px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:30px;
+	border:5px solid white;
+
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+
+	overflow:hidden;
+
+	box-shadow:0 0 5px #999;
+	-webkit-box-shadow:0 0 5px #999;
+
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+
+/* ini adalah style dari id=gallery ul li:hover */
+#gallery ul li:hover{
+	-webkit-box-shadow:0 0 20px #333;
+	-moz-box-shadow:0 0 20px #333;
+	-ms-box-shadow:0 0 20px #333;
+	-o-box-shadow:0 0 20px #333;
+	box-shadow:0 0 20px #333;
+}
+/* end gallery */
+
+/* ini adalah style dari class link */
+.link{
+	position: absolute;
+	list-style: none;
+	padding: 0 0 0 0;
+	left: 250px;
+	z-index: 2;
+	top:55px;
+
+}
+
+/* ini adalah style dari class link li */
+.link li {
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+}
+
+/* ini adalah style dari class link li a */
+.link li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: arial;
+	color: black;
+	margin-right: 10;
+	text-decoration: none;
+	word-spacing: 10px;
+}
+
+/* ini adalah style dari class link li a:hover */
+.link li a:hover{
+	color: white;
+}
+/* end link */
+
+/* ini adala style dari class social */
+.social{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	right: -230px;
+	top: -7;
+}
+
+/* ini adala style dari class social li */
+.social li{
+	display: inline;
+	margin-right: 10px;
+}
+
+/* ini adala style dari class social li a */
+.social li a{
+	text-decoration: none;
+}
+/* end social */
+
+/* ini adalah style dari id=footer */
+#footer {
+	text-align: center;
+	font-family: verdana;
+	font-size: 15px;
+	color: white;
+	width: 740px;
+	height: 10px;
+	margin: 0 auto;
+	padding-top: -1px;
+}
+/* end footer */
+
+/* ini adalah class clear untuk meng-nonaktifkan sebuah float */
+.clear{
+	clear: both;
+}
+/* end clear */

@@ -1,0 +1,1 @@
+alert("Silahkan hubungi saya di sini aja, okeee");

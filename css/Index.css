@@ -1,0 +1,480 @@
+/* ini adalah style dari font-face */
+@font-face {
+	font-family: 'ActionManRegular';
+	src: url('font/Action-Man/Action_Man-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+/* end font-face */
+
+/* ini adalah style dari id=content h1 */
+#content h1{
+	font-family: ActionManRegular, arial;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+	color: grey;
+}
+/* end content h1 */
+
+/* ini adalah style dari id=content h3 */
+#content h3{
+	color: white;
+}
+/* end h3 */
+
+/* ini adalah style dari tag body */
+body {
+	font-family: georgia;
+	background-color: #ddd;
+	background-image: url(../images/tomas2_1024.jpg);
+	margin-top: 100;
+	padding: 0px;
+}
+/* end body */
+
+/* ini adalah style dari id=topbar */
+#topbar{
+	width: 100%;
+	height: 50px;
+	background-color: lightblue;
+	border-top: 4px solid #377f4b;
+	border-bottom: 40px solid black;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	position: fixed;
+}
+/* end topbar */
+
+/* ini adalah style dari id=topnav */
+#topnav {
+	position: relative;
+	width: 740px;
+	margin: 0 auto;
+}
+/* end topnav */
+
+/* ini adalah style dari class toplogo */
+.toplogo {
+	position: absolute;
+	left: -50px;
+	top: 4px;
+}
+/* end toplogo */
+
+/* ini adalah style dari class toplogo a */
+.toplogo a {
+	background-image: url(../images/logo.png);
+	width: 116px;
+	height: 40px;
+	display: block;
+	text-indent: -9999;
+}
+/* end toplogo a */
+
+/* ini adalah style dari class link */
+.link {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	z-index: 2;
+	right: 2;
+}
+/* end link */
+
+/* ini adalah style dari class link li */
+.link li{
+	float: left;
+	margin: 0;
+	margin-right: 30px;
+}
+/* end link li */
+
+/* ini adalah style dari class link li a */
+.link li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: arial;
+	color: #999;
+	margin-right: 10px;
+	text-decoration: none;
+	word-spacing: 1px;
+}
+/* end link li a */
+
+/* ini adalah style dari class link li.current a */
+.link li.current a{
+	color: white;
+}
+/* end link li.current a */
+
+/* ini adalah style dari class link a:hover */
+.link a:hover {
+	color: white;
+}
+/* end link a:hover */
+
+/* ini adalah style dari class link li ul */
+.link li ul{
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: #333;
+	list-style: none;
+}
+/* end link li ul */
+
+/* ini adalah style dari class link li:hover ul */
+.link li:hover ul {
+	display: block;
+	padding: 20px;
+}
+/* end link li:hover ul */
+
+/* ini adalah style dari class link li:hover ul li */
+.link li:hover ul li{
+	line-height: 30px;
+}
+/* end link li:hover ul li */
+
+/* ini adalah style dari class link li:hover ul li a */
+.link li:hover ul li a{
+	font-size: 11px;
+}
+/* end link li:hover ul li a */
+
+/* ini adalah style dari class social */
+.social {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	right: -20%;
+	top: -7;
+}
+/* end social */
+
+/* ini adalah style dari class social li */
+.social li {
+	display: inline;
+	margin-right: 10px;
+}
+/* end social li */
+
+/* ini adalah style dari class social li a */
+.social li a{
+	text-decoration: none;
+}
+/* end social li a */
+
+/* ini adalah style dari id=submenu */
+#submenu {
+	position: absolute;
+	width: 740px;
+	margin: 0 auto;
+	height: 30px;
+	top: 54px;
+	left: 300px;
+}
+/* end submenu */
+
+/* ini adalah style dari class search */
+.search {
+	float: right;
+}
+/* end search */
+
+/* ini adalah style dari class searchtext */
+.searchtext {
+	width: 230px;
+	height: 29px;
+	float: left;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10px;
+	background-image: url(../images/search-bg.png);
+	border: 0;
+	margin: 0;
+}
+/* end searchtext */
+
+/* ini adalah style dari class searchsubmit */
+.searchsubmit {
+	cursor: pointer;
+	float: right;
+	position: relative;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	color: #ccc;
+	width: 40px;
+	height: 29px;
+	text-indent: -9999px;
+	background-image: url(../images/search-btn.png);
+}
+/* end searchsubmit */
+
+/* ini adalah style dari tag p */
+p {
+	margin-top: 0px 0px 20px 0px;
+	color: white;
+}
+/* end p */
+
+/* ini adalah style dari id=page-wrap */
+#page-wrap {
+	width: 700px;
+	margin: 0px auto;
+	padding: 20px;
+	background-image: url(../images/6797150-green.jpg);
+	position: relative;
+}
+/* end page-wrap */
+
+/* ini adalah style dari id=content */
+#content {
+	width: 460px;
+	margin: 0 auto;
+}
+/* end content */
+
+/* ini adalah style dari id=footer */
+#footer {
+	text-align: center;
+	background: #333333;
+	font: verdana;
+	color: white;
+	width: 740px;
+	height: 40px;
+	margin: 0px auto;
+	padding-top: 20px;
+	position: relative;
+	left: -20px;
+	bottom: -20px;
+}
+/* end footer*/
+
+/* ini adalah class clear untuk me-nonaktifkan float */
+.clear {
+	clear: both;
+}
+/* end clear */
+
+/* ini adalah style dari class kotak */
+.kotak {
+	width: 80px;
+	height: 100px;
+	margin: 0px 10px 10px 0px;
+	float: left;
+	position: relative;
+}
+/* end kotak */
+
+/* ini adalah style dari class kotak img */
+.kotak img {
+	border: 1px solid white;
+	position: relative;
+	
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+/* end kotak img */
+
+/* ini adalah style dari class kotak:hover img */
+.kotak:hover img{
+	border: 5px solid white;
+	
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* end kotak:hover img */
+
+/* ini adalah style dari class kotak p */
+.kotak p{
+	font: arial;
+	background-color: rgba(0,0,0,.3);
+	width: 130%;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: -80px
+	left: -7px;
+	opacity: 0;
+	z-index: 9999;
+
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+/* end kotak p */
+
+/* ini adalah style dari class kotak:hover p */
+.kotak:hover p{
+	opacity: 1;
+	bottom: -40px;
+}
+/* end kotak:hover p */
+
+/* ini adalah style dari class gambar */
+.gambar{
+	padding-right: 20px;
+	position: relative;
+	border: 5px solid white;
+
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,.3);
+	-ms-box-shadow: 0 0 5px rgba(0,0,0,.3);
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+
+	cursor: pointer;
+	overflow: hidden;
+}
+/* end gambar */
+
+/* ini adalah style dari class gambar img */
+.gambar img{
+	width: 450px;
+
+	-moz-transition: all 1.5s;
+	-webkit-transition: all 1.5s;
+	-o-transition: all 1.5s;
+	-ms-transition: all 1.5s;
+	transition: all 1.5s;
+}
+/* end gambar img */
+
+/* ini adalah style dari class gambar:hover img */
+.gambar:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);	
+}
+/* end gambar:hover img */
+
+/* ini adalah style dari class gambar:hover .caption */
+.gambar:hover .caption{
+	opacity: 1;
+	top: 0;
+}
+/* end gambar:hover .caption */
+
+/* ini adalah style dari class caption */
+.caption{
+	opacity: 0;
+	position: absolute;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	font-family: arial;
+
+	-moz-transition: all .4s ease-in;
+	-webkit-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	-ms-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+
+	-moz-transition-delay: .5s;
+	-webkit-transition-delay: .5s;
+	-o-transition-delay: .5s;
+	-ms-transition-delay: .5s;
+	transition-delay: .5s;
+}
+/*end caption */
+
+/* ini adalah style dari class caption h3, class caption p */
+.caption h3, .caption p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	left: 100%;
+
+
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	-ms-transition: all .4s;
+	transition: all .4s;
+}
+/*end caption h3, class caption p */
+
+.gambar:hover h3, .gambar:hover p{
+	left: 0;
+}
+
+/* ini adalah style dari class caption p */
+.captain p{
+	-moz-transition-delay: 1.2s;
+	-webkit-transition-delay: 1.2s;
+	-o-transition-delay: 1.2s;
+	-ms-transition-delay: 1.2s;
+	transition-delay: 1.2s;
+}
+/*end caption p */
+
+/* ini adalah style dari class caption h3 */
+.caption h3{
+	margin-top: 20px;
+	background-color: black;
+
+	-moz-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	-o-transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	transition-delay: 1s;
+}
+/*end caption h3 */
+
+/* ini adalah style dari class bg-kanan */
+.bg-kanan{
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: -60px;
+	right: -170px;
+	left: 88%;
+	top: 20%;
+	z-index: 1;
+}
+/*end bg-kanan*/
+
+/* ini adalah style dari class bg-kiri */
+.bg-kiri{
+	width: 180px;
+	height: 180px;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: -100px;
+	right:-270px;
+	z-index: -1;
+	left: -38%;
+	top: -5%;
+}
+/*end bg-kiri */

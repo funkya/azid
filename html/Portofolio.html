@@ -1,0 +1,138 @@
+<!-- source code html -->
+<html>
+<!-- source code head -->
+<head>
+	<title>Portofolio</title>
+<!-- source code memanggil sebuah style dari css -->
+	<link rel="stylesheet" href="../css/awal.css">
+	<link rel="stylesheet" href="../js/adipoli/adipoli/adipoli.css">
+	<link rel="stylesheet" href="../js/fancybox/fancybox/jquery.fancybox.css">
+<!-- end sourcce code link -->
+</head>
+<!-- end source code head -->
+
+<!-- source code body -->
+<body>
+<!-- source code topbar -->
+	<div id="topbar">
+	<div id="topnav">
+		<div class="toplogo">
+			<a href="#"></a>
+		</div>
+		<ul class="link">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="tentangsaya.html">About</a></li>
+			<li><a href="portofolio.html">Portofolio</a></li>
+			<li><a href="hubungi.html">Contact</a></li>
+			<li><a href="signin.html">Login</a></li>
+		<ul class="social">
+			<li>
+				<a href="#">
+					<img src="../images/facebook.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/twitter.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="../images/gplus.png">
+					</a>
+				</li>
+			</ul>
+		</div>
+<!-- end source code topbar -->
+
+	<div id="page-wrap"></div>
+<!-- source code content -->
+		<div id="content">
+<!-- source code gallery -->
+			<div id="gallery">
+				<h1><marquee direction="left"> -- Portofolio --</marquee></h1>
+			<ul>
+				 <li>
+					 <a href="../images/Beautiful waterfall.jpg" title="Waterfall" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/Beautiful waterfall.jpg" alt="Gambar 1" class="baris1">
+					 </a>
+				 </li>
+				 <li>
+					 <a href="../images/IMG_0604.jpg" title="Stone Garden" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/IMG_0604.jpg" alt="Gambar 2" class="baris1">
+					 </a>
+				 </li>
+				 <li>
+					 <a href="../images/IMG_9855.jpg" title="Meja Bundar" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/IMG_9855.jpg" alt="Gambar 3" class="baris1">
+					 </a>
+				 </li>
+				 
+				 <li>
+					 <a href="../images/IMG_9861.jpg" title="Peta Global" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/IMG_9861.jpg" alt="Gambar 4" class="baris1">
+					 </a>
+				 </li>
+				 <li>
+					 <a href="../images/QTHB009.jpg" title="Summer Beach" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/QTHB009.jpg" alt="Gambar 5" class="baris2">
+					 </a>
+				 </li>
+				 <li>
+					 <a href="../images/QTHB020.jpg" title="Summer Beach" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/QTHB020.jpg" alt="Gambar 6" class="baris2">
+					 </a>
+				 </li>
+				  <li>
+					 <a href="../images/IMG_4655.jpg" title="Touch Cream Chocolate" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/IMG_4655.jpg" alt="Gambar 6" class="baris2">
+					 </a>
+				 </li>
+				  <li>
+					 <a href="../images/IMG_4687.jpg" title="Touch Cream Stroberry" class="fancybox" data-fancybox-group="gallery">
+						 <img src="../images/IMG_4687.jpg" alt="Gambar 6" class="baris2">
+					 </a>
+				 </li>
+				 
+			 </ul>
+		</div>
+<!-- end source code gallery -->
+	</div>
+<!-- end source code content -->
+
+<!-- source code script jquery -->
+	<script src="../js/jquery-2.0.0.js"></script>
+	<script src="../js/adipoli/adipoli/jquery.adipoli.js"></script>
+	<script src="../js/fancybox/fancybox/jquery.fancybox.js"></script>
+		 
+	<script>
+		$('.baris1').adipoli({
+			startEffect: 'transparent',
+			hoverEffect: 'boxRainGrowReverse'
+			});
+			 
+		$('.baris2').adipoli({
+			startEffect: 'overlay',
+			hoverEffect: 'foldLeft'
+			});
+	</script>
+		
+	<script>
+		$('.fancybox').fancybox();
+	</script>
+<!-- end source code script jquery -->
+		 
+<!-- source code clear -->
+<div class="clear"></div>
+<!-- end source code clear -->
+
+<!-- source code footer -->
+	<div id="footer">
+		<p>Copyright &copy; 2014. Azid Aprianto. Universitas Pasundan Bandung</p>
+	</div>
+<!-- end source code footer -->
+
+</body>
+<!-- end source code body -->
+</html>
+<!-- end source code html -->
